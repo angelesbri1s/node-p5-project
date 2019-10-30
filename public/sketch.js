@@ -18,7 +18,7 @@ function setup() {
     ellipse(receivedData.x, receivedData.y, 10);
   }
 
-  background("red");
+  background("black");
 
 
 
