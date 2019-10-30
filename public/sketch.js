@@ -30,7 +30,7 @@ function draw() {
 
 function mouseDragged() {
   fill("peachPuff");
-  ellipse(mouseX,mouseY,20)
+  ellipse(mouseX,mouseY,40)
 
   var sendData = {
     x:mouseX,
