@@ -14,7 +14,7 @@ function setup() {
   socket.on("mouseBroadcast", newDrawing);
 
   function newDrawing(receivedData){
-    fill("yellow")
+    fill("blue")
     ellipse(receivedData.x, receivedData.y, 10);
   }
 
@@ -29,7 +29,7 @@ function draw() {
 }
 
 function mouseDragged() {
-  fill("white");
+  fill("peachPuff");
   ellipse(mouseX,mouseY,20)
 
   var sendData = {
